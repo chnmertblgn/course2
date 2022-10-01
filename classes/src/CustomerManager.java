@@ -1,13 +1,11 @@
 public class CustomerManager {
-    public void Add() {
-        System.out.println("Müþteri eklendi.");
-    }
+    public void add() { System.out.println("Müþteri eklendi."); }
 
-    public void Remove() {
+    public void remove() {
         System.out.println("Müþteri silindi.");
     }
 
-    public void Update() {
+    public void update() {
         System.out.println("Müþteri güncellendi.");
     }
 }

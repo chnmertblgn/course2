@@ -4,15 +4,15 @@ public class Main {
         CustomerManager customerManager2 = new CustomerManager();
         customerManager = customerManager2;
 
-        customerManager.Add();
-        customerManager.Remove();
-        customerManager.Update();
+        customerManager.add();
+        customerManager.remove();
+        customerManager.update();
 
-        int sayi1 = 10;
-        int sayi2 = 20;
-        sayi2 = sayi1;
-        sayi1 = 30;
-        System.out.println(sayi2);
+        int number = 10;
+        int number2 = 20;
+        number2 = number;
+        number = 30;
+        System.out.println(number2);
 
         int[] numbers = new int[]{1,2,3};
         int[] numbers2 = new int[]{4,5,6};

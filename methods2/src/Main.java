@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
         String message = "Bugün hava çok güzel.";
-        int total = returnTotal(5, 6);
+        int sum = addition(5, 6);
         String city = returnCity();
-        int total2 = returnTotal2(2, 3, 4, 5, 6);
+        int sum2 = addition2(2, 3, 4, 5, 6);
 
-        System.out.println(total);
+        System.out.println(sum);
         System.out.println(city);
-        System.out.println(total2);
+        System.out.println(sum2);
     }
 
     public static void add() {
@@ -22,18 +22,18 @@ public class Main {
         System.out.println("Güncellendi.");
     }
 
-    public static int returnTotal(int number, int number2) {
+    public static int addition(int number, int number2) {
         return number + number2;
     }
 
-    public static int returnTotal2(int... numbers) {
-        int total = 0;
+    public static int addition2(int... numbers) {
+        int sum = 0;
 
         for (int number : numbers) {
-            total += number;
+            sum += number;
         }
 
-        return total;
+        return sum;
     }
 
     public static String returnCity() {

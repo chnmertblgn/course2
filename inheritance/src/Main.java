@@ -9,7 +9,7 @@ public class Main {
         CustomerManager customerManager = new CustomerManager();
         EmployeeManager employeeManager = new EmployeeManager();
 
-        customerManager.List();
-        employeeManager.Add();
+        customerManager.list();
+        employeeManager.add();
     }
 }

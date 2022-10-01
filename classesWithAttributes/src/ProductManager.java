@@ -1,5 +1,5 @@
 public class ProductManager {
-    public void Add(Product product) {
+    public void add(Product product) {
         System.out.println("Ürün eklendi. " + product.getName());
     }
 }

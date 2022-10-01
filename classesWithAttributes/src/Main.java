@@ -35,6 +35,6 @@ public class Main {
         System.out.println(product.getCode());
 
         ProductManager productManager = new ProductManager();
-        productManager.Add(product);
+        productManager.add(product);
     }
 }

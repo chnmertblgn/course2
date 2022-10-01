@@ -1,17 +1,15 @@
 public class Math {
-    public int Addition(int number, int number2) {
-        return number + number2;
-    }
+    public int addition(int number, int number2) { return number + number2; }
 
-    public int Subtract(int number, int number2) {
+    public int subtract(int number, int number2) {
         return number - number2;
     }
 
-    public int Multiply(int number, int number2) {
+    public int multiply(int number, int number2) {
         return number * number2;
     }
 
-    public double Divide(double number, double number2) {
+    public double divide(double number, double number2) {
         return number / number2;
     }
 }
