@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Product product = new Product();
+        Product product = new Product(1, "Araba", "2022 model arabadýr.", 125000, 15, "Mavi");
+        //Product product = new Product();
 
         /*
         product.id = 1;
@@ -18,12 +19,12 @@ public class Main {
         System.out.println(product.color);
         */
 
-        product.setId(1);
+        /*product.setId(1);
         product.setName("Araba");
         product.setDescription("2022 model arabadýr.");
         product.setPrice(125000);
         product.setStockAmount(15);
-        product.setColor("Mavi");
+        product.setColor("Mavi");*/
 
         System.out.println(product.getId());
         System.out.println(product.getName());

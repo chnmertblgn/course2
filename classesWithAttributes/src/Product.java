@@ -1,4 +1,19 @@
 public class Product {
+
+    public Product() {
+        System.out.println("Product constructor.");
+    }
+
+    public Product(int id, String name, String description, double price, int stockAmount, String color) {
+        System.out.println("Product constructor.");
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.stockAmount = stockAmount;
+        this.color = color;
+    }
+
     private int id;
     private String name;
     private String description;
