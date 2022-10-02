@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        //GC
         CustomerManager customerManager = new CustomerManager();
         CustomerManager customerManager2 = new CustomerManager();
         customerManager = customerManager2;
